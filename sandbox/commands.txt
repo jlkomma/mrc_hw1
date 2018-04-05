@@ -1,0 +1,14 @@
+mkdir sandbox
+cd sandbox
+gedit command.txt
+mkdir dir1
+mkdir dir2
+cd dir1
+gedit file1.txt
+cd ~
+cd sandbox
+cd dir2
+gedit file2.txt
+cd ~
+sudo apt install tree
+tree
